@@ -1,0 +1,29 @@
+
+.roadMap{
+  margin-top: 230px;
+  color: white;
+  margin-left: 60px;
+  margin-bottom: 216px;
+}
+
+.roadMap h1{
+  display: flex;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 170px;
+}
+
+.firstStep{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-bottom: 160px ;
+}
+
+.roadMap img{
+  filter:drop-shadow(0px 0px 60px #8700b8);
+  width: 450px;
+  /* background-image:linear-gradient(to right,#180023,white,#180023),linear-gradient(to bottom,#180023,white,#180023) ; */
+}

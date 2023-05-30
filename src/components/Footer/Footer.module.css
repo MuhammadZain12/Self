@@ -1,0 +1,25 @@
+
+
+.footer{
+  color: white;
+  background-color: #15021E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copyright{
+  padding: 30px 40px;
+}
+
+.terms{
+  display: flex;
+  flex-direction: row;
+  padding: 30px 40px;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.terms p{
+  margin: 0px;
+}

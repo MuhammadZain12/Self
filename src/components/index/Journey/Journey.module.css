@@ -1,0 +1,39 @@
+
+.journey{
+  display: flex;
+  flex-direction: row;
+  margin-top: 300px;
+  justify-content: space-between;
+}
+
+.foreground2{
+  /* position:absolute; */
+  left: 0px;
+}
+
+.textContent{
+  position:absolute;
+  display:flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: right;
+  right:60px;
+  margin-top: 200px;
+}
+
+.heading{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 48px;
+  font-weight: 550;
+}
+
+.expText{
+  margin-left: 130px;
+  margin-top: 40px;
+  color: white;
+  width: 350px;
+  margin-bottom: 40px;
+}
+

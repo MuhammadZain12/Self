@@ -1,0 +1,57 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 24px 40px 24px 87px;
+}
+
+.logo{
+  width:200px;
+  max-height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo h3{
+  color: white;
+  margin: auto 20px;
+  padding: 2% 0%;
+  font-size: 48px;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 320px;
+  margin: auto 10px auto auto;
+
+}
+
+.discordbtn{
+  background-color: #531A60;
+  padding: 12px 18px;
+  width:110px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.discordbtn p{
+  margin:auto;
+}
+
+.discordbtn img{
+  /* margin: 3px 2px 0px 4px; */
+  margin-top:2px;
+  max-width: 24px;
+  max-height: 18.29px;
+}
+
+.discordbtn:hover{
+  cursor: pointer;
+}

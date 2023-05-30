@@ -1,0 +1,6 @@
+.pc{
+  margin: auto 0px;
+  background: -webkit-linear-gradient(left,#3200FB 0%,#9B00D1 30%,#FB00AB 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip : text;
+}

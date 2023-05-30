@@ -1,0 +1,29 @@
+
+.buttonDiv{
+  background-image: linear-gradient(85deg,#3200FB 0%,#9B00D1 30%,#FB00AB 100%);
+  border-radius: 4px;
+  transition: 0.9s;
+  padding: 12px 24px;
+  width:max-content;
+  color: white;
+  display: flex;
+  flex-direction: row;
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.buttonDiv p{
+  margin:0px;
+}
+
+.buttonDiv img{
+  margin-right: 8px;
+  margin-top: 2px;
+  max-width: 24px;
+  max-height: 18.29px;
+}
+
+.buttonDiv:hover{
+  cursor: pointer;
+}
