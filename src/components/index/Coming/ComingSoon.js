@@ -7,11 +7,12 @@ import Button from "../../UI/Button";
 function ComingSoon(props) {
   return (
     <div className={styles.comingSoon}>
-      <img src={image2} />
+      
       <div className={styles.textContent}>
         <h1>
           <Pc>COMING SOON: &nbsp;</Pc>SELF Liquidity Pool{" "}
         </h1>
+        <img src={image2} />
         <div className={styles.expText}>
           <h3>🚀 Exciting News! 🚀 </h3>
           <p>

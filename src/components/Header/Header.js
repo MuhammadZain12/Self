@@ -15,7 +15,7 @@ return(
     </div>
     <div className={`${styles.btns}`}>
       <div className={styles.discordbtn}><img key='img' src={discordlogo}/><p>DISCORD</p></div>
-      <Button><img src={wallet}/> <p>Connect</p></Button>
+      <Button className={styles.connect}><img src={wallet}/> <p>Connect</p></Button>
     </div>
   </div>
 )

@@ -6,7 +6,7 @@ function Box(props) {
   console.log(props.key)
   if (props.type === "left") {
     return (
-      <div className={props.className ? `${styles.bigWrapper} ${props.className}`:styles.bigWrapper}>
+      <div className={props.className ? `${styles.bigWrapper} ${styles.right} ${props.className}`:`${styles.bigWrapper} ${styles.right}`}>
         <div className={styles.wrapper}>
           <div className={styles.box}>{props.children}</div>
         </div>
@@ -15,7 +15,7 @@ function Box(props) {
     );
   } else {
     return (
-      <div className={props.className ? `${styles.bigWrapper} ${props.className}`:styles.bigWrapper}>
+      <div className={props.className ? `${styles.bigWrapper} ${styles.right} ${props.className}`:`${styles.bigWrapper} ${styles.right}`}>
         <div className={styles.wrapper}>
           <div className={styles.box}>{props.children}</div>
         </div>

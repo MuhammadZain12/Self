@@ -37,3 +37,27 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width:600px){
+  .journey{
+    width: 95%;
+    margin-top: 100px;
+  }
+  .foreground2{
+    width: 90%;
+    margin-left:-50px;
+    margin-top: 160px;
+    overflow: hidden;
+
+  }
+  .textContent{
+    margin-top: 10px;
+    right: 2%;
+  }
+  .heading{
+    font-size: 32px;
+  }
+  .expText{
+    margin-bottom: 20px;
+    width: 85%;
+  }
+}

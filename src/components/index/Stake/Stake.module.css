@@ -52,3 +52,34 @@
   text-align: left;
   width: 450px;
 }
+
+
+@media screen and (max-width:600px){
+  .stake{
+    width:95%;
+  }
+  .stake img{
+    width: 98%;
+    position: relative;
+    margin-left: 0%;
+  }
+  .textContent{
+    margin-left: 5%;
+  }
+  .headingText{
+    font-size: 36px;
+    width: 95%;
+  }
+  .heading{
+    margin-top: 10px;
+  }
+  .headingBar{
+    margin-top:0px;
+    height: 90px;
+    margin-right: 3%;
+  }
+  .expText{
+    text-align:left;
+    width: 99%;
+  }
+}

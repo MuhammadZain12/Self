@@ -1,3 +1,5 @@
+
+
 .header{
   display: flex;
   flex-direction: row;
@@ -54,4 +56,35 @@
 
 .discordbtn:hover{
   cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .discordbtn{
+    display: none;
+  }
+  .logo h3{
+    font-size: 30px;
+    margin: 0px 9px;
+    padding: 6px 0px;
+  }
+  .logo img{
+    width:50px;
+  }
+  .logo{
+    width:150px;
+  }
+  .header{
+    padding: 24px 20px 24px 20px;
+    justify-content: space-between;
+  }
+  .btns{
+    margin: 0px 0px;
+    justify-content: flex-end;
+    padding: 6px 0px;
+  }
+  .connect{
+    padding: 10px 30px;
+  }
 }

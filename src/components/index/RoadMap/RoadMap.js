@@ -10,10 +10,10 @@ function RoadMap(props) {
   return (
     <div className={styles.roadMap}>
       <h1>
-        Your SELF <Pc>&nbsp;Roadmap&nbsp;</Pc> to Staking
+        Your SELF <Pc className={styles.pc}>Roadmap</Pc> to Staking
       </h1>
       <div className={styles.firstStep}>
-        <Box type="left">
+        <Box className={styles.box} type="left">
           <h3>Acquire SELF Tokens:</h3>
           <p>
             tart by acquiring SELF tokens on any participating exchange.
@@ -22,9 +22,9 @@ function RoadMap(props) {
         </Box>
         <img src={image1} />
       </div>
-      <div className={styles.firstStep}>
+      <div className={styles.secondStep}>
         <img src={image2} />
-        <Box type="right">
+        <Box className={styles.box} type="right">
           <h3>Stake your SELF Tokens:</h3>
           <p>
             Visit the staking section on our platform, select the amount of SELF
@@ -34,7 +34,7 @@ function RoadMap(props) {
         </Box>
       </div>
       <div className={styles.firstStep}>
-        <Box type="left">
+        <Box className={styles.box} type="left">
           <h3>Earn Rewards:</h3>
           <p>
             Once your tokens are staked, sit back, and watch your digital wealth

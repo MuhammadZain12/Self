@@ -24,6 +24,7 @@
 
 .bigWrapper{
   width: max-content;
+  
 }
 
 .rightbar{
@@ -41,4 +42,51 @@
 
 .box h3{
   padding-bottom: 2px;
+}
+
+
+@media screen and (max-width:600px){
+  .box h3{
+    font-size: 22px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+  }
+  .box p{
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .box{
+    width: auto;
+    padding: 20px 15px;
+  }
+  .bigWrapper{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    height: auto;
+    padding: 3px auto;
+    border-radius: 15px;
+    border: 5px solid transparent;
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+  }
+  .left{
+    background-image:linear-gradient(#180023,#180023),linear-gradient(to left,#9C37FDB2 1%,#FB00ABB2 10%,#15BFFD00,#180023 60%);      
+  }
+  .wrapper{
+    width: auto;
+    margin: 0px 2%;
+  }
+  .rightbar{
+    margin-right: auto;
+    margin-top: -211px;
+    display: none;
+  }
+  .leftbar{
+    display: none;
+    margin-left: auto;
+    margin-top: -211px;
+  }
 }

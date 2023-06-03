@@ -23,3 +23,17 @@
 .terms p{
   margin: 0px;
 }
+
+@media screen and (max-width:600px){
+  .footer{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .copyright{
+    padding:10% 10% 10% 10%;
+  }
+  .terms{
+    width:85%;
+    padding:5px 5% 30px 7%;
+  }
+}

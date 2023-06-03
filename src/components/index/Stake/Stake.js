@@ -15,10 +15,10 @@ function Stake(props) {
             BOOST YOUR SELF <Pc>STAKE NOW!</Pc>
           </div>
         </div>
+        <img className={styles.image} src={foreground1} />
         <div className={styles.expText}>Unlock a universe of possibilities in the SELF ecosystem with a simple act - staking your SELF tokens! Revel in a spectrum of unique perks, earn delightful rewards and shape your digital journey. Unleash the true essence of your SELF. Embark on your staking adventure today!</div>
         <Button>Stake Now</Button>
       </div>
-      <img className={styles.image} src={foreground1} />
     </div>
     </>
   );

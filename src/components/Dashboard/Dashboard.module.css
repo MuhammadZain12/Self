@@ -1,0 +1,53 @@
+
+.dashboard{
+  color: white;
+  text-align: left;
+  margin-left: 77px;
+  background:url(../../images/dashboard.png);
+  background-position: 400px 0px;
+  background-repeat: no-repeat;
+}
+
+
+.dashboard h1{
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+
+.pc{
+  display: inline;
+}
+
+.type{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.type h3{
+  margin: 0px;
+  font-size: 22px;
+  margin-right:40px;
+}
+
+.darkbtn{
+  background-image: linear-gradient(85deg,#3200FB80 0%,#FB00AB80 30%,#9B00D180 100%);
+  padding: 7px auto;
+  font-weight: 100;
+  display: inline;
+  padding: 5px 18%;
+}
+
+.lglightbtn{
+  font-weight: 100;
+  width: 140px;
+  display: inline;
+  padding: 5px 22%;
+}
+
+.typebtns{
+  margin: 0px 20px;
+  width: 140px;
+}
