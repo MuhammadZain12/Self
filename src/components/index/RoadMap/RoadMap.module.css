@@ -1,0 +1,88 @@
+
+.roadMap{
+  margin-top: 230px;
+  color: white;
+  margin-left: 60px;
+  margin-bottom: 216px;
+  text-align: left;
+}
+
+.roadMap h1{
+  text-align: left;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-bottom: 170px;
+}
+
+.pc{
+  display: inline-block;
+}
+
+.firstStep{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-bottom: 160px ;
+}
+
+.secondStep{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-bottom: 160px;
+}
+
+.roadMap img{
+  filter:drop-shadow(0px 0px 60px #8700b8);
+  width: 450px;
+  /* background-image:linear-gradient(to right,#180023,white,#180023),linear-gradient(to bottom,#180023,white,#180023) ; */
+}
+
+
+@media screen and (max-width:600px){
+  .roadMap{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-bottom: 150px;
+  }
+  .roadMap img{
+    width:95%;
+    margin-bottom: 70px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .pc{
+    display: inline-block;
+  }
+  .roadMap h1{
+    width: 95%;
+    font-size: 35px;
+    margin-left: auto;
+    margin-bottom: 90px;
+    display: inline-block;
+    text-align: center;
+  }
+  .firstStep{
+    flex-direction:column-reverse;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .secondStep{
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .secondStep img{
+    margin-bottom: 70px;
+  }
+  .box{
+    width: 95%;
+  }
+}

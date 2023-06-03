@@ -1,0 +1,39 @@
+
+
+.footer{
+  color: white;
+  background-color: #15021E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copyright{
+  padding: 30px 40px;
+}
+
+.terms{
+  display: flex;
+  flex-direction: row;
+  padding: 30px 40px;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.terms p{
+  margin: 0px;
+}
+
+@media screen and (max-width:600px){
+  .footer{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .copyright{
+    padding:10% 10% 10% 10%;
+  }
+  .terms{
+    width:85%;
+    padding:5px 5% 30px 7%;
+  }
+}

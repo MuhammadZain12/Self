@@ -1,0 +1,19 @@
+.transBox{
+  width: 500px;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  padding: 10px 10px;
+  /* border-image: linear-gradient(120deg,#FB00ABB2,#3200FBB2,#9C37FDB2) 1; */
+  /* border-top: 0px solid #ff14b5b2;
+  border-left: 1px solid #ff31beb2;
+  border-right: 1px solid #3200FBB2;
+  border-bottom: 0px solid #9C37FDB2;
+  background-image: linear-gradient(120deg,#FB00ABB2,#3200FBB2,#9C37FDB2),linear-gradient(120deg,#FB00ABB2,#3200FBB2,#9C37FDB2);;
+  background-size: 100% 1px;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat; */
+  /* background-origin: border-box; */
+  background-clip: padding-box,border-box; 
+  background-image: linear-gradient(),linear-gradient(120deg,#FB00ABB2,#3200FBB2,#9C37FDB2);
+
+}

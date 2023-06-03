@@ -1,0 +1,108 @@
+
+
+.comingSoon{
+  background: url(../../../images/coming1.png);
+  background-position:0px -50px;
+  margin-left: 80px;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.comingSoon img{
+  position: absolute;
+  right: 0px;
+  width: 350px;
+  margin-right: 70px;
+  filter: drop-shadow(0px 0px 60px #8700b8);
+}
+
+.textContent{
+  color: white;
+}
+
+.textContent h1{
+  display: flex;
+  font-size: 45px;
+  flex-direction: row;
+  margin-bottom: 70px; 
+}
+
+.expText{
+  width: 600px;
+}
+
+.expText h3{
+  margin: 0px;
+  margin-bottom: 3px;
+}
+
+.expText p{
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.subForm{
+  margin-top: 60px;
+}
+
+.subForm h2{
+  font-size: 30px;
+}
+
+.input{
+  display: flex;
+  flex-direction: row;
+  width:470px;
+  justify-content: space-between;
+}
+
+.input input{
+  width:300px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: transparent;
+  background: #301b3c;
+  padding: 3px 9px;
+  color: rgb(83, 83, 83);
+}
+
+@media screen and (max-width:600px){
+  .comingSoon{
+    margin-left: 3%;
+    background-position: 0px -140px;
+    margin-bottom: 60px;
+  }
+  .comingSoon img{
+    position: relative;
+    width:290px;
+    margin-left: 6%;
+  }
+  .textContent h1{
+    font-size: 35px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .expText{
+    margin-top: 76px;
+    padding: 0px 5px;
+    width: 95%;
+  }
+  .subForm h2{
+    font-size: 23px;
+    margin-bottom: 40px;
+  }
+
+  .input{
+    flex-direction: column;
+    width: 95%;
+    align-items: end;
+    margin-left: 5%;
+  }
+
+  .input input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+}
