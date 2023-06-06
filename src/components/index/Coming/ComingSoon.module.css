@@ -75,7 +75,8 @@
   .comingSoon img{
     position: relative;
     width:290px;
-    margin-left: 6%;
+    margin-left: 9%;
+    margin-right:0;
   }
   .textContent h1{
     font-size: 35px;

@@ -1,0 +1,72 @@
+
+.stakingForm{
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  text-align: left;
+  /* border: 1px solid white; */
+}
+
+.stakingForm h4{
+  align-self: left;
+  margin-bottom: 0px;
+}
+
+.stakingMax{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stakingMax h5{
+  text-transform: capitalize;
+  color: #FB00ABB2;
+}
+
+.valueSelector{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+
+.valChanger{
+  border: 1px solid white;
+  padding: 3px 12px;
+  font-size: 25px;
+  border-radius: 4px;
+}
+
+.valueSelector input{
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  /* height: ; */
+  padding: 3px 0px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  width: 80px;
+  margin: 0px 5px;
+  font-stretch:extra-expanded;
+}
+
+.valueSelector input:focus{
+  outline-width: 0;
+  
+}
+
+.valueSelector input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+        margin: 0;
+}
+
+.valueSelector input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.btn{
+  width: auto;
+  justify-content: center;  
+}

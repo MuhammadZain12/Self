@@ -8,6 +8,7 @@ import Button from '../UI/Button'
 
 function Header(props){
 return(
+  <React.Fragment>
   <div className={`${styles.header}`}>
     <div className={`${styles.logo}`}>
       <img src={logo}/>
@@ -18,6 +19,7 @@ return(
       <Button className={styles.connect}><img src={wallet}/> <p>Connect</p></Button>
     </div>
   </div>
+  </React.Fragment>
 )
 }
 
